@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta 
+        name="viewport" 
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AUREL — Visual Archive</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="navbar">
+
+    <a href="#" class="logo">AUREL</a>
+
+    <nav class="nav-links">
+
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+
+    </nav>
+
+    <button class="menu-button" aria-label="Open menu">
+        ☰
+    </button>
+
+</header>
+<main>
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                A CURATED VISUAL ARCHIVE
+            </p>
+
+            <h1>
+                Things worth
+                <span>noticing.</span>
+            </h1>
+
+            <p class="hero-description">
+                A collection of nature, fashion, places and
+                everyday details captured through a creative lens.
+            </p>
+
+            <a href="#gallery" class="hero-button">
+                Explore the collection
+                <span>↗</span>
+            </a>
+
+        </div>
+
+        <div class="hero-number">
+            01
+        </div>
+
+    </section>
+    <section class="gallery-section" id="gallery">
+
+    <div class="section-intro">
+
+        <div>
+
+            <p class="eyebrow">
+                THE COLLECTION
+            </p>
+
+            <h2>
+                Visual stories.
+            </h2>
+
+        </div>
+
+        <p class="section-description">
+            Four perspectives. Twenty-four moments.
+            One carefully curated visual archive.
+        </p>
+
+    </div>
+
+
+   <div class="filter-buttons">
+
+    <button class="filter-btn active" data-category="all">
+        All
+    </button>
+
+    <button class="filter-btn" data-category="nature">
+        Nature
+    </button>
+
+    <button class="filter-btn" data-category="fashion">
+        Fashion
+    </button>
+
+    <button class="filter-btn" data-category="places">
+        Places
+    </button>
+
+    <button class="filter-btn" data-category="details">
+        Details
+    </button>
+
+</div>
+
+<div class="gallery-grid"></div>
+    </div>
+
+</section>
+<section class="about-section" id="about">
+
+    <p class="eyebrow">
+        ABOUT AUREL
+    </p>
+
+    <div class="about-content">
+
+        <h2>
+            Beauty lives in
+            <span>the details.</span>
+        </h2>
+
+        <p>
+            AUREL is a visual archive created to celebrate
+            the beauty found in ordinary and extraordinary
+            moments, from quiet natural landscapes to
+            thoughtful fashion, inspiring spaces and
+            everyday objects.
+        </p>
+
+    </div>
+
+</section>
+</main>
+<footer class="footer">
+
+    <div class="footer-logo">
+        AUREL
+    </div>
+
+    <p>
+        A visual archive of things worth noticing.
+    </p>
+
+    <span>
+        © 2026 AUREL
+    </span>
+
+</footer>
+<div class="lightbox" id="lightbox">
+
+    <button class="lightbox-close" id="lightboxClose">
+        ×
+    </button>
+
+    <button class="lightbox-prev" id="lightboxPrev">
+        ←
+    </button>
+
+    <div class="lightbox-content">
+
+        <img
+            src=""
+            alt=""
+            id="lightboxImage"
+        >
+
+        <div class="lightbox-info">
+
+            <span id="lightboxCategory">
+                NATURE · 01
+            </span>
+
+            <h3 id="lightboxTitle">
+                Golden Hour
+            </h3>
+
+            <p id="lightboxDescription">
+                Warm light falling across a quiet landscape.
+            </p>
+
+        </div>
+
+    </div>
+
+    <button class="lightbox-next" id="lightboxNext">
+        →
+    </button>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
